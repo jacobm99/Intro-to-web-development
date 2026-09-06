@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Twin Cities Animal Rescue | Contact</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <header>
+        <img src="media/images/logo/rescue-logo_c.png" alt="Twin Cities Animal Rescue Logo" width="120">
+        <h1>Twin Cities Animal Rescue</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Get in Touch</h2>
+
+        <section>
+            <h3>Visit Us</h3>
+            <p><strong>Service Area:</strong> We proudly serve the greater Twin Cities metropolitan area and surrounding suburbs.</p>
+            <p><strong>Office & Shelter Hours:</strong></p>
+            <ul>
+                <li>Monday - Friday: 10:00 AM – 6:00 PM</li>
+                <li>Saturday: 9:00 AM – 4:00 PM</li>
+                <li>Sunday: Closed (Volunteer & Foster support on-call)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Interest & Inquiry Form</h3>
+            <p>Ready to make a difference? Fill out the form below and one of our coordinators will reach out to you within 48 hours.</p>
+            
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Your Information</legend>
+                    <p>
+                        <label for="fullName">Full Name:</label><br>
+                        <input type="text" id="fullName" name="fullName" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email Address:</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Inquiry Details</legend>
+                    <p>
+                        <label for="interestType">Area of Interest:</label><br>
+                        <select id="interestType" name="interestType" required>
+                            <option value="">-- Please select an option --</option>
+                            <option value="volunteer">Volunteering</option>
+                            <option value="foster">Fostering</option>
+                            <option value="adoption">Adoption Information</option>
+                            <option value="general">General Inquiry</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="availability">Availability (e.g., Weekends, Afternoons):</label><br>
+                        <input type="text" id="availability" name="availability">
+                    </p>
+
+                    <p>
+                        <label>Experience with Pets:</label><br>
+                        <input type="radio" id="expNone" name="experience" value="none">
+                        <label for="expNone">First-time pet owner / No experience</label><br>
+                        
+                        <input type="radio" id="expSome" name="experience" value="some">
+                        <label for="expSome">Some experience (have owned a pet before)</label><br>
+                        
+                        <input type="radio" id="expAdvanced" name="experience" value="advanced">
+                        <label for="expAdvanced">Advanced (experience with medical needs or training)</label>
+                    </p>
+
+                    <p>
+                        <label for="message">Short Message:</label><br>
+                        <textarea id="message" name="message" rows="4" cols="50" placeholder="Tell us a little bit about yourself and why you'd like to get involved!"></textarea>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <input type="submit" value="Submit Inquiry">
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Twin Cities Animal Rescue. A community nonprofit organization.</p>
+    </footer>
+
+</body>
+</html>
